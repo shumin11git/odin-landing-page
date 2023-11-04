@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, sans-serif;
+}
+
+.main-banner, .header, .footer {
+    color: #F9FAF8;
+    background-color: #1F2937;
+}
+
+.logo {
+    flex-shrink: 0;
+    flex-grow: 1;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    padding: 20px 12%;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    color: #E5E7EB;
+    gap: 1em;
+    flex-grow: 1;
+}
+
+.main-banner {
+    padding: 60px 12%;
+    display: flex;
+    gap: 5%;
+}
+
+.image {
+    height: 200px;
+    width: 300px;
+    background-color: grey;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-banner-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.signup {
+    background-color: royalblue;
+    border: 0;
+    color: #E5E7EB;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 8px 24px;
+    border-radius: 8px;
+    align-self: baseline;
+}
+
+.cards-banner {
+    padding: 0 12% 60px 12%;
+    text-align: center;
+}
+
+.cards-banner > h2 {
+    margin: 30px;
+}
+
+.cards-container {
+    display: flex;
+    gap: 5%;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px 10%;
+}
+
+.card-illustration {
+    border: 3px solid steelblue;
+    height: 130px;
+    width: 115px;
+    border-radius: 14px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    max-width: 115px;
+}
+
+.card > p {
+    font-size: 14px;
+    color: #1F2937;
+}
+
+.quote-banner {
+    background-color: #E5E7EB;
+    padding: 60px 18%;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote-banner > p {
+    font-style: italic;
+    font-size: 24px;
+}
+
+.quote-banner > h3 {
+    align-self: flex-end;
+}
+
+.announcement-banner {
+    padding: 50px 12%;
+}
+
+.announcement {
+    display: flex;
+    background-color: steelblue;
+    color: #E5E7EB;
+    padding: 20px 12%;
+    border-radius: 8px;
+    gap: 12px 5%;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.contribution-button {
+    border: 2px solid #E5E7EB;
+    color: #E5E7EB;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 8px 24px;
+    border-radius: 8px;
+    background-color: steelblue;
+    flex-shrink: 0;
+}
+
+.announcement-text {
+    flex: 1 1 300px;
+}
+
+.footer {
+    text-align: center;
+    padding: 20px 12%;
+    color: darkgrey;
+}
